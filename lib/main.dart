@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rental_app/pages/car_details_page.dart';
 import 'package:rental_app/pages/carlist_screen.dart';
 import 'package:rental_app/pages/onboarding_screen.dart';
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: CarListScreen(),
+      home: OnboardingPage(),
     );
   }
 }

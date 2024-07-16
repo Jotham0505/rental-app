@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:rental_app/pages/car_details_page.dart';
 import 'package:rental_app/pages/carlist_screen.dart';
+import 'package:rental_app/pages/map_details_page.dart';
 import 'package:rental_app/pages/onboarding_screen.dart';
 
 void main() {

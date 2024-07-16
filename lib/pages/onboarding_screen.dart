@@ -53,7 +53,7 @@ class OnboardingPage extends StatelessWidget {
                         backgroundColor: Colors.white
                       ),
                       onPressed: () {
-                        Navigator.push(context, MaterialPageRoute(builder: (context) => CarListScreen()));
+                        Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: (context) => CarListScreen()), (route) => false);
                       },
                       child: Text("Let's Go!",style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold),),
                     ),

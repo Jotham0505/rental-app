@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rental_app/models/car_model.dart';
+import 'package:rental_app/data/car_model.dart';
 
 class MoreCard extends StatelessWidget {
   const MoreCard({super.key, required this.car});

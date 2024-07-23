@@ -14,7 +14,7 @@ class CarDetailsPage extends StatefulWidget {
 }
 
 class _CarDetailsPageState extends State<CarDetailsPage> with SingleTickerProviderStateMixin{
-  AnimationController ? _controller;
+  AnimationController ? _controller; // animation controller for tween animation
   Animation<double>? _animation;
 
   @override
